@@ -3,397 +3,528 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Animation Site</title>
-    <!-- CSS  -->
+    <title>Rawvan</title>
+    <!-- css  -->
     <link rel="stylesheet" href="./assests/style.css" />
-    <!-- Font Awesome  -->
+    <!-- FontAwesome  -->
+    <link rel="stylesheet" href="./assests/FontAwesome/css/all.min.css" />
+    <!-- icon  -->
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      rel="shortcut icon"
+      href="./assests/Images/logo.png"
+      type="image/x-icon"
     />
-    <!-- Owl Carousel  -->
-    <link rel="stylesheet" href="./assests/Owl/owl.min.css" />
-    <link rel="stylesheet" href="./assests/Owl/owl.theme.css" />
   </head>
   <body>
-    <!-- Navbar  -->
     <header>
-      <div class="header container">
-        <div class="header_logo_nav">
-          <div class="header_logo">
-            <i class="fa-brands fa-slack"></i>
-            <h1>Rawvan</h1>
-          </div>
-          <nav class="header_nav">
-            <ul>
-              <li><a href="#" title="Home">Home</a></li>
-              <li><a href="#" title="About">About</a></li>
-              <li><a href="#" title="Services">Services</a></li>
-              <li><a href="#" title="Portfolio">Portfolio</a></li>
-              <li><a href="#" title="Contact">Contact</a></li>
-            </ul>
-          </nav>
+      <div class="container headerBox">
+        <a href="./index.html" title="rawvan" class="logo">
+          <img src="./assests/Images/logoname.png" alt="logo" />
+        </a>
+        <!-- Desktop  -->
+        <nav class="desktop_content">
+          <ul>
+            <li><a href="#" title="Home" class="active">Home</a></li>
+            <li><a href="./aboutus.html" title="About">About Us</a></li>
+            <li>
+              <a href="./portfolio.html" title="Portfolio">Portfolio</a>
+            </li>
+            <li><a href="./services.html" title="services">Services</a></li>
+          </ul>
+        </nav>
+        <div class="navbtn desktop_content">
+          <a href="./contact.html" title="Get Started" class="one">
+            <span>Get Started</span>
+          </a>
+          <a href="./portfolio.html" title="View Portfolio" class="two">
+            <span>View Portfolio</span>
+          </a>
         </div>
-        <div class="header_btn">
-          <div class="header_modes">
-            <i class="fa-solid fa-moon" id="sun-icon" style="display: none"></i>
-            <i class="fa-regular fa-sun" id="moon-icon"></i>
-          </div>
-          <div class="header_contact_btn">
-            <a href="javascript:void(0)" title="Get Started">Get Started</a>
+        <!-- mobile  -->
+        <div class="mobile_content" id="navIcon">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </div>
+        <div class="mobile_content" id="navIconClose">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <!-- sidenav -->
+        <div class="sidenav" id="sidenavId">
+          <a href="./index.html" title="rawvan" class="logo">
+            <img src="./assests/Images/logoname.png" alt="logo" />
+          </a>
+          <ul>
+            <li><a href="#" title="Home" class="active">Home</a></li>
+            <li><a href="./aboutus.html" title="About">About Us</a></li>
+            <li>
+              <a href="./portfolio.html" title="Portfolio">Portfolio</a>
+            </li>
+            <li><a href="./contact.html" title="Contact">Contact</a></li>
+          </ul>
+          <div class="navbtn">
+            <a href="./contact.html" title="Get Started" class="one">
+              <span>Get Started</span>
+            </a>
+            <a href="./portfolio.html" title="View Portfolio" class="two">
+              <span>View Portfolio</span>
+            </a>
           </div>
         </div>
       </div>
     </header>
     <main>
-      <!-- Hero  -->
       <section id="hero">
-        <div class="hero_container">
-          <div class="container">
-            <h2>
-              "Professional Video Editing
-              <span>Services</span>"
-            </h2>
-          </div>
-          <div class="hero_video">
-            <video src="./assests/video.mp4" autoplay controls loop></video>
-          </div>
-        </div>
-        <div class="animation_hero"></div>
-      </section>
-      <!-- Marquee  -->
-      <section id="marquee">
-        <div class="marquee">
-          <h1>Video Editing</h1>
-          <span><i class="fa-solid fa-star-of-life"></i></span>
-          <h1>Post Production</h1>
-          <span><i class="fa-solid fa-star-of-life"></i></span>
-          <h1>Website Development</h1>
-          <span><i class="fa-solid fa-star-of-life"></i></span>
-        </div>
-      </section>
-      <!-- About  -->
-      <section id="about">
-        <div class="container">
-          <div class="about_box">
-            <div class="about_left">
-              <div class="about_image">
-                <img src="./assests/sample01.jpg" alt="SampleImage" />
-              </div>
+        <div class="container heroBox">
+          <div class="left">
+            <h2>Transform Your <span>Vision</span> with Rawvan</h2>
+            <p>
+              At Rawvan, we turn your raw footage into stunning, engaging
+              visuals. Our team of experts delivers high-quality edits for
+              social media, corporate needs, and cinematic storytelling.
+            </p>
+            <div class="leftBtn">
+              <a href="./services.html" title="explore services" class="one"
+                >Explore Services</a
+              >
+              <a href="./portfolio.html" title="view portfolio" class="two"
+                >View Portfolio</a
+              >
             </div>
-            <div class="about_right">
-              <div>
-                <h1>About <span>us</span></h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Assumenda explicabo, corrupti fugiat eius sint dolore repellat
-                  vitae eum repudiandae natus illum quo optio iusto cum
-                  architecto ipsum deleniti earum totam ex consectetur
-                  reprehenderit dignissimos. Eius praesentium modi consequuntur
-                  error alias nesciunt eligendi sequi accusamus, quas ratione
-                  rerum dolorum voluptatum, molestiae iure. Eos iure eum optio
-                  deleniti maiores ducimus ipsam aliquam? Non pariatur fuga vero
-                  sit earum quisquam suscipit aliquid quibusdam, similique
-                  voluptatem, explicabo cum totam mollitia et omnis voluptate
-                  expedita atque dolorum velit eaque nam error nobis. Tempore
-                  animi esse tenetur! Facilis minima cupiditate distinctio porro
-                  libero asperiores doloribus impedit!
-                </p>
-                <a href="javascript:void(0)" title="Read More">Read More</a>
-              </div>
+          </div>
+          <div class="right">
+            <div class="right_img">
+              <img src="./assests/Images/banner.webp" alt="Banner" />
             </div>
           </div>
         </div>
       </section>
-      <!-- Services  -->
       <section id="services">
         <div class="container">
-          <div class="services_boxes">
-            <div class="services_left services_box">
-              <div>
-                <h2>
-                  Services we <br />
-                  <span>Provide</span>
-                </h2>
-              </div>
-              <div class="services_image">
-                <div class="services_imagebox">
-                  <img src="./assests/Image/vlog.jpg" alt="SampleImage" />
-                </div>
-                <p>Vlog</p>
-              </div>
-              <div class="services_image">
-                <div class="services_imagebox">
-                  <img src="./assests/Image/youtube.jpg" alt="SampleImage" />
-                </div>
-                <p>Youtube</p>
-              </div>
+          <div class="services_box">
+            <div class="left">
+              <h2>Explore Our Diverse Video Editing Services</h2>
             </div>
-            <div class="services_middle services_box">
-              <div class="services_image">
-                <div class="services_imagebox">
-                  <img src="./assests/Image/reels.jpg" alt="SampleImage" />
-                </div>
-                <p>Reels</p>
-              </div>
-              <div class="services_image">
-                <div class="services_imagebox">
-                  <img src="./assests/Image/four.jpg" alt="SampleImage" />
-                </div>
-                <p>Shorts</p>
-              </div>
-              <div class="services_image">
-                <div class="services_imagebox">
-                  <img src="./assests/Image/five.jpg" alt="SampleImage" />
-                </div>
-                <p>Live</p>
-              </div>
-            </div>
-            <div class="services_right services_box">
-              <div class="services_image">
-                <div class="services_imagebox">
-                  <img src="./assests/Image/six.jpg" alt="SampleImage" />
-                </div>
-                <p>Video Editing</p>
-              </div>
-              <div class="services_image">
-                <div class="services_imagebox">
-                  <img src="./assests/Image/seven.jpg" alt="SampleImage" />
-                </div>
-                <p>Post Production</p>
-              </div>
-              <div class="services_image">
-                <div class="services_imagebox">
-                  <img src="./assests/Image/eight.jpg" alt="SampleImage" />
-                </div>
-                <p>Website Development</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Works  -->
-      <section id="works">
-        <div class="container">
-          <h2>Our <span>works</span></h2>
-          <div class="works_container">
-            <div class="work_marquee">
-              <div class="works_boxes">
-                <div class="works_image">
-                  <img src="./assests/Image/workone.jpg" alt="work" />
-                </div>
-                <div class="works_image">
-                  <img src="./assests/Image/worktwo.jpg" alt="work" />
-                </div>
-                <div class="works_image">
-                  <img src="./assests/Image/workthree.jpg" alt="work" />
-                </div>
-                <div class="works_image">
-                  <img src="./assests/Image/workfour.jpg" alt="work" />
-                </div>
-                <div class="works_image">
-                  <img src="./assests/Image/workone.jpg" alt="work" />
-                </div>
-                <div class="works_image">
-                  <img src="./assests/Image/worktwo.jpg" alt="work" />
-                </div>
-                <div class="works_image">
-                  <img src="./assests/Image/workthree.jpg" alt="work" />
-                </div>
-                <div class="works_image">
-                  <img src="./assests/Image/workfour.jpg" alt="work" />
-                </div>
-              </div>
-            </div>
-            <div class="work_marquee">
-              <div class="works_boxes_two">
-                <div class="works_image">
-                  <img src="./assests/Image/workone.jpg" alt="work" />
-                </div>
-                <div class="works_image">
-                  <img src="./assests/Image/worktwo.jpg" alt="work" />
-                </div>
-                <div class="works_image">
-                  <img src="./assests/Image/workthree.jpg" alt="work" />
-                </div>
-                <div class="works_image">
-                  <img src="./assests/Image/workfour.jpg" alt="work" />
-                </div>
-                <div class="works_image">
-                  <img src="./assests/Image/workone.jpg" alt="work" />
-                </div>
-                <div class="works_image">
-                  <img src="./assests/Image/worktwo.jpg" alt="work" />
-                </div>
-                <div class="works_image">
-                  <img src="./assests/Image/workthree.jpg" alt="work" />
-                </div>
-                <div class="works_image">
-                  <img src="./assests/Image/workfour.jpg" alt="work" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Counter  -->
-      <section id="counter">
-        <div class="container">
-          <div class="counter_boxes">
-            <div class="counter_box">
-              <h3>52</h3>
-              <p>Clients</p>
-            </div>
-            <div class="counter_box">
-              <h3>12</h3>
-              <p>Projects</p>
-            </div>
-            <div class="counter_box">
-              <h3>01</h3>
-              <p>Years</p>
-            </div>
-            <div class="counter_box">
-              <h3>22</h3>
-              <p>Awards</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Project  -->
-       <section id="project">
-        <div class="container">
-          <div class="project_boxes">
-            <div class="project_left">
-              <div class="project_image">
-                <img src="./assests/Image/project.jpg" alt="project">
-              </div>
-            </div>
-            <div class="project_right">
-              <h2>Have a project <br> in <span>mind</span></h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur unde quo tempore magnam natus quidem non esse aliquid tempora quae laboriosam velit, culpa nostrum quibusdam consequatur amet incidunt ipsa vel?</p>
-              <a href="javascript:void(0)" title="Chat"><i class="fa-brands fa-whatsapp"></i> Chat With Us</a>
-            </div>
-          </div>
-        </div>
-       </section>
-       <!-- Testi  -->
-        <section id="testimonials">
-          <div class="container">
-            <div class="testi_boxes">
-              <div class="testi_left">
-                <h2>What Our Customers Are <span>Says</span></h2>
-              </div>
-              <div class="testi_right">
-                <div class="owl-carousel owl-theme">
-                  <div class="item">
-                    <div class="testi_owlbox">
-                      <h3>Gopal</h3>
-                      <h4>Founder of Gopal Farms</h4>
-                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos eos consequatur tempora voluptate perferendis molestiae natus esse aperiam rem, magnam earum obcaecati sunt at omnis distinctio adipisci quae qui blanditiis.</p>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <div class="testi_owlbox">
-                      <h3>Gopal</h3>
-                      <h4>Founder of Gopal Farms</h4>
-                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos eos consequatur tempora voluptate perferendis molestiae natus esse aperiam rem, magnam earum obcaecati sunt at omnis distinctio adipisci quae qui blanditiis.</p>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <div class="testi_owlbox">
-                      <h3>Gopal</h3>
-                      <h4>Founder of Gopal Farms</h4>
-                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos eos consequatur tempora voluptate perferendis molestiae natus esse aperiam rem, magnam earum obcaecati sunt at omnis distinctio adipisci quae qui blanditiis.</p>
-                    </div>
-                  </div>
-              </div>
-              </div>
-            </div>
-          </div>
-        </section>
-    </main>
-    <footer>
-      <!-- Contact  -->
-      <section id="contact">
-        <img src="./assests/Image/wave.svg" alt="wavy" class="wave">
-        <div class="container">
-          <div class="contact_boxes">
-            <div class="contact_left">
-              <div class="contact_logo">
-                <i class="fa-brands fa-slack"></i>
-                <h1>Rawvan</h1>
-              </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, voluptatibus.</p>
-            </div>
-            <div class="contact_center">
-              <nav class="contact_nav">
-                <h4>Link</h4>
-                <ul>
-                  <li><a href="#" title="Home">Home</a></li>
-                  <li><a href="#" title="About">About</a></li>
-                  <li><a href="#" title="Services">Services</a></li>
-                  <li><a href="#" title="Portfolio">Portfolio</a></li>
-                  <li><a href="#" title="Contact">Contact</a></li>
-                </ul>
-              </nav>
-            </div>
-            <div class="contact_right">
-              <h4>Address</h4>
+            <div class="right">
               <p>
-                143 Near City School, <br>
-                Muthumalai, <br>
-                407652
+                At Rawvan, we transform your raw footage into captivating
+                visuals. Our services include Shorts and Reels Editing for
+                impactful social media content, Corporate Videos to enhance your
+                brand image, Short Film Production for cinematic storytelling,
+                and Custom Projects tailored to your unique needs. Discover how
+                we can bring your vision to life.
               </p>
             </div>
           </div>
-          <div class="touch">
-            <div class="touch_one">
-              <h3>Get In Touch</h3>
-            </div>
-            <div class="touch_two">
-              <div class="icon">
-                <i class="fa-regular fa-envelope"></i>
-                Email
+          <div class="services_containers">
+            <div class="services_conta">
+              <div class="services_img">
+                <img src="./assests/Images/services-1.webp" alt="servicesone" />
               </div>
-              <a href="javascript:void(0)" title="mail">gopal@gmail.com</a>
-            </div>
-            <div class="touch_two">
-              <div class="icon">
-                <i class="fa-solid fa-phone"></i>
-                Call Us
+              <div class="services_text">
+                <h3>Engage with Shorts and Reels Editing</h3>
+                <p>
+                  Our Shorts and Reels Editing service creates high-impact
+                  content tailored for social media platforms, ensuring your
+                  message is delivered effectively in a short format.
+                </p>
+                <!-- <a href="javascript:void(0)" title="Learn More">
+                  <span>Learn More</span>
+                </a> -->
               </div>
-              <a href="javascript:void(0)" title="mail">+91 9876543210</a>
             </div>
-            <div class="touch_three">
-              <h4>Follow Us On</h4>
-              <div>
-                <a href="javascript:void(0)" title="twitter">
-                  <i class="fa-brands fa-x-twitter"></i>
-                </a>
-                <a href="javascript:void(0)" title="instagram">
-                  <i class="fa-brands fa-instagram"></i>
-                </a>
-                <a href="javascript:void(0)" title="linkedin">
-                  <i class="fa-brands fa-linkedin-in"></i>
-                </a>
-                <a href="javascript:void(0)" title="facebook">
-                  <i class="fa-brands fa-facebook-f"></i>
-                </a>
-                <a href="javascript:void(0)" title="youtube">
-                  <i class="fa-brands fa-youtube"></i>
-                </a>
+            <div class="services_conta">
+              <div class="services_img">
+                <img src="./assests/Images/services-2.webp" alt="servicesone" />
+              </div>
+              <div class="services_text">
+                <h3>Enhance Your Brand with Corporate Videos</h3>
+                <p>
+                  Our Corporate Videos service offers professional edits that
+                  convey your brand message clearly and effectively, enhancing
+                  your corporate image.
+                </p>
+                <!-- <a href="javascript:void(0)" title="Learn More">
+                  <span>Learn More</span>
+                </a> -->
+              </div>
+            </div>
+            <div class="services_conta">
+              <div class="services_img">
+                <img src="./assests/Images/services-3.webp" alt="servicesone" />
+              </div>
+              <div class="services_text">
+                <h3>Cinematic Storytelling in Short Films</h3>
+                <p>
+                  Our Short Film Production service specializes in cinematic
+                  storytelling, bringing your creative vision to life through
+                  expertly edited short films.
+                </p>
+                <!-- <a href="javascript:void(0)" title="Learn More">
+                  <span>Learn More</span>
+                </a> -->
               </div>
             </div>
           </div>
-          <p class="contact_para">
-            All rights reserved , Copyrights © <span id="year"></span> <a href="#" title="name">Rawvan </a> Video Editing Company
-          </p>
         </div>
-       </section>
+      </section>
+      <section id="advantage">
+        <div class="container">
+          <div class="advantage_box">
+            <div class="left">
+              <h2>Discover the Rawvan Advantage in Video Editing</h2>
+            </div>
+            <div class="right">
+              <p>
+                At Rawvan, we transform your raw footage into polished, engaging
+                visuals. With over 5 years of experience, our team delivers
+                high-definition, professional outputs. We pride ourselves on our
+                creative and fresh ideas, ensuring your projects are completed
+                on time with seamless communication. Choose Rawvan for
+                expertise, quality, innovation, and timeliness.
+              </p>
+            </div>
+          </div>
+          <div class="advantage_containers">
+            <div class="advantage_conta">
+              <div class="advantage_img">
+                <img
+                  src="./assests/Images/advantage-1.webp"
+                  alt="advantageimg"
+                />
+              </div>
+              <div class="advantage_text">
+                <h3>Engage with Shorts and Reels</h3>
+                <p>
+                  Our Shorts and Reels Editing service creates high-impact
+                  content tailored for social media, ensuring your message is
+                  delivered effectively. Experience increased engagement and
+                  tailored content that resonates with your audience.
+                </p>
+                <!-- <a href="javascript:void(0)" title="Learn More">
+                  <span>Learn More</span>
+                </a> -->
+              </div>
+            </div>
+            <div class="advantage_conta">
+              <div class="advantage_img">
+                <img
+                  src="./assests/Images/advantage-2.webp"
+                  alt="advantageimg"
+                />
+              </div>
+              <div class="advantage_text">
+                <h3>Professional Corporate Videos</h3>
+                <p>
+                  Our Corporate Videos service helps convey your brand message
+                  clearly and effectively. Enhance your corporate image with
+                  professional presentation and high-quality production that
+                  reflects your company's values.
+                </p>
+                <!-- <a href="javascript:void(0)" title="Learn More">
+                  <span>Learn More</span>
+                </a> -->
+              </div>
+            </div>
+            <div class="advantage_conta">
+              <div class="advantage_img">
+                <img
+                  src="./assests/Images/advantage-3.webp"
+                  alt="advantageimg"
+                />
+              </div>
+              <div class="advantage_text">
+                <h3>Cinematic Short Films</h3>
+                <p>
+                  Specializing in cinematic storytelling, our Short Film
+                  Production service brings your creative vision to life. Enjoy
+                  expert editing that enhances narrative flow and captivates
+                  audiences.
+                </p>
+                <!-- <a href="javascript:void(0)" title="Learn More">
+                  <span>Learn More</span>
+                </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="expertise">
+        <div class="container">
+          <div class="expertise_box">
+            <div class="left">
+              <h2>Unmatched Expertise in Video Editing</h2>
+              <p>
+                With over 5 years of experience, Rawvan transforms raw footage
+                into captivating visuals. Our team excels in creating
+                high-quality, engaging content that meets the unique needs of
+                each client, ensuring satisfaction and excellence in every
+                project.
+              </p>
+              <div class="left_box">
+                <div class="left_box_one">
+                  <h3>5 years</h3>
+                  <p>Years of dedicated service in video editing.</p>
+                </div>
+                <div class="left_box_two">
+                  <h3>100%</h3>
+                  <p>Client satisfaction with our video projects.</p>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <div class="right_img">
+                <img
+                  src="./assests/Images/expertise.webp"
+                  alt="expertise_img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="excellence">
+        <div class="container">
+          <div class="excellence_box">
+            <div class="left">
+              <h2>Ensuring Excellence in Every Frame</h2>
+              <p>
+                At Rawvan, we are dedicated to transforming your raw footage
+                into stunning visuals. Our team ensures every project meets the
+                highest standards of quality, delivering professional and
+                engaging outputs.
+              </p>
+              <div class="left_box">
+                <div class="left_box_one">
+                  <h3>100 %</h3>
+                  <p>Client satisfaction rate with our video edits.</p>
+                </div>
+                <div class="left_box_two">
+                  <h3>500 projects</h3>
+                  <p>Successful projects completed with precision.</p>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <div class="right_img">
+                <img
+                  src="./assests/Images/excellence.webp"
+                  alt="excellence_img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="creativity">
+        <div class="container">
+          <div class="creativity_box">
+            <div class="left">
+              <h3>Unleashing Creativity in Video Editing</h3>
+            </div>
+            <div class="right">
+              <p>
+                At Rawvan, we transform your raw footage into captivating
+                visuals with our innovative techniques. Our team is dedicated to
+                pushing the boundaries of creativity, ensuring each project is
+                unique and engaging. Discover how we bring fresh ideas to life
+                in every edit.
+              </p>
+              <div class="right_box">
+                <div class="right_box_one">
+                  <h4>Creative Edge</h4>
+                  <p>
+                    Our team excels in crafting unique video edits that stand
+                    out.
+                  </p>
+                </div>
+                <div class="right_box_two">
+                  <h4>Fresh Ideas</h4>
+                  <p>
+                    We continuously innovate to deliver captivating visual
+                    stories.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="deliver">
+        <div class="container">
+          <div class="deliver_box">
+            <div class="left">
+              <h2>Delivering Excellence, On Time, Every Time</h2>
+              <p>
+                At Rawvan, we understand the critical importance of timely
+                delivery in video editing. Our team is committed to ensuring
+                that your projects are completed on schedule, without
+                compromising on quality. Seamless communication keeps you
+                informed every step of the way.
+              </p>
+              <div class="left_box">
+                <div class="left_box_one">
+                  <h3>98 %</h3>
+                  <p>
+                    Projects delivered on time, ensuring client satisfaction.
+                  </p>
+                </div>
+                <div class="left_box_two">
+                  <h3>24 hrs</h3>
+                  <p>Average response time for client inquiries.</p>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <div class="right_img">
+                <img src="./assests/Images/deliver.webp" alt="delvierimg" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="benefit">
+        <div class="container">
+          <div class="benefit_box">
+            <div class="left">
+              <h2>Discover the Unique Benefits of Choosing Rawvan</h2>
+            </div>
+            <div class="right">
+              <p>
+                At Rawvan, we transform your raw footage into polished, engaging
+                visuals. Our services offer increased engagement on social
+                media, professional brand presentation, and captivating
+                storytelling. With a commitment to quality and innovation, we
+                ensure your projects are delivered on time, every time.
+              </p>
+            </div>
+          </div>
+          <div class="benefit_containers">
+            <div class="benefit_conta">
+              <div class="benefit_img">
+                <img src="./assests/Images/benefit-1.webp" alt="advantageimg" />
+              </div>
+              <div class="benefit_text">
+                <h3>Boost Your Social Media Engagement</h3>
+                <p>
+                  Our Shorts and Reels Editing service ensures your content
+                  resonates with your audience, offering quick turnaround times
+                  to meet your posting schedule.
+                </p>
+                <!-- <a href="javascript:void(0)" title="Learn More">
+                  <span>Learn More</span>
+                </a> -->
+              </div>
+            </div>
+            <div class="benefit_conta">
+              <div class="benefit_img">
+                <img src="./assests/Images/benefit-2.webp" alt="advantageimg" />
+              </div>
+              <div class="benefit_text">
+                <h3>Enhance Your Corporate Image</h3>
+                <p>
+                  Our Corporate Videos service helps convey your brand message
+                  clearly and effectively, reflecting your company's values
+                  through high-quality production.
+                </p>
+                <!-- <a href="javascript:void(0)" title="Learn More">
+                  <span>Learn More</span>
+                </a> -->
+              </div>
+            </div>
+            <div class="benefit_conta">
+              <div class="benefit_img">
+                <img src="./assests/Images/benefit-3.webp" alt="advantageimg" />
+              </div>
+              <div class="benefit_text">
+                <h3>Captivate with Cinematic Storytelling</h3>
+                <p>
+                  Our Short Film Production service brings your creative vision
+                  to life, enhancing narrative flow through expert editing and
+                  collaboration with talented filmmakers.
+                </p>
+                <!-- <a href="javascript:void(0)" title="Learn More">
+                  <span>Learn More</span>
+                </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer_box">
+          <nav class="footerNav_One">
+            <ul>
+              <li>
+                <a href="#" title="home" class="footer_active">Home</a>
+              </li>
+              <li>
+                <a href="./aboutus.html" title="about">About Us</a>
+              </li>
+              <li>
+                <a href="./portfolio.html" title="portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="./services.html" title="services">Services</a>
+              </li>
+            </ul>
+          </nav>
+
+          <hr />
+          <nav class="footerNav_Two">
+            <ul>
+              <li>
+                <span>
+                  © <span id="year"></span>
+                  <a href="https://rawvan.com/" title="rawvan">Rawvan</a>. All
+                  rights reserved.
+                </span>
+              </li>
+              <li>
+                <a href="./contact.html" title="contact">Contact</a>
+              </li>
+              <li>
+                <a href="javascript:void(0)" title="terms & conditions"
+                  >Terms & Conditions</a
+                >
+              </li>
+
+              <li>
+                <a href="javascript:void(0)" title="privacy policy"
+                  >Privacy Policy</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <nav class="footerNav_Three">
+            <ul>
+              <li>
+                <a href="javascript:void(0)" title="whatsapp"
+                  ><i class="fa-brands fa-whatsapp"></i
+                ></a>
+              </li>
+              <li>
+                <a href="javascript:void(0)" title="instagram"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+
+              <li>
+                <a href="javascript:void(0)" title="linkedin"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </footer>
-    <!-- js  -->
-    <script src="./assests/jquery.js"></script>
-    <script src="./assests/Owl/owl.min.js"></script>
+    <button class="back-to-top" type="button">
+      <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <!-- Js  -->
+    <script src="./assests/jquery.min.js"></script>
     <script src="./assests/script.js"></script>
   </body>
 </html>
